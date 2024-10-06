@@ -5,7 +5,7 @@ function Sign(){
     function hiderdw(){
         let x 
        if(parseFloat(window.getComputedStyle(document.getElementById('item')).width)==450){x=260}
-       else if(parseFloat(window.getComputedStyle(document.getElementById('item')).width)==350){x=300}
+       else if(parseFloat(window.getComputedStyle(document.getElementById('item')).width)==335){x=290}
         anime({
             targets: '.item',
             translateY: x
