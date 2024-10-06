@@ -66,3 +66,34 @@
         
     }
   }
+  @media screen and (min-width: 700px) {
+    body{
+        background-color: #18181b;
+    }
+    .sign1{
+        width: 450px;
+        height: 260px;
+    }
+    .item{
+        width: 450px;
+        height: 260px;
+    }
+    .post{
+    
+        width: 450px;
+        height: fit-content;
+        
+    }
+    .profile{
+    
+        width: 450px;
+        height: fit-content;
+        
+    }
+    .addition{
+    
+        width: 450px;
+        height: 300px;
+        
+    }
+  }

@@ -10,7 +10,7 @@ function Home() {
   
     return (
       <div className="w-screen h-fit relative flex flex-col place-items-center bg-zinc-900">
-        <div className="fixed bottom-0 z-10"><Navbar/></div>
+        <div className="fixed bottom-0 z-10 lg:left-0 "><Navbar/></div>
         <div className="z-0"><Posts/></div>
         </div>
     )

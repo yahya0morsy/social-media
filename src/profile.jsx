@@ -8,7 +8,7 @@ function Profile(){
       }, []);
     return(
         <div className="w-screen h-fit relative flex flex-col place-items-center bg-zinc-900">
-        <div className="fixed bottom-0 z-10 "><Navbar/></div>
+        <div className="fixed bottom-0 z-10 lg:left-0"><Navbar/></div>
         <div className="profile bg-gray-800 rounded-xl flex flex-col  my-5 mb-20">
             <div className="place-self-center my-2 whitespace-pre"><img rel="png" src={k} className="w-20 rounded-full"/></div>
             <div className="text-base text-white mx-2 my-2 place-self-center">{y.displayedname} </div>
