@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "./bar"
 import Posts from "./posts"
 import { useEffect } from "react";
+
 function Home() {
   
   useEffect(() => {

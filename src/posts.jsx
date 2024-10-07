@@ -1,6 +1,7 @@
 import x from '../src/data'
 import heartc from '../images/heart (1).png'
 import heart from '../images/heart.png'
+import comment from '../images/comments.png'
 function Posts() {
     
    //document.getElementById('').src = heartc
@@ -30,8 +31,8 @@ function Posts() {
                     <div className='mx-1 my-1 grid grid-flow-col place-items-center'> {post.img.map((imag)=>{return(<img rel='jpeg' src={imag} className='w-fit h-fit  bg-zinc-800 p-1 rounded-lg'></img>)})}</div>
                     <div className='text-white text-md whitespace-pre-wrap p-3'>{post.text}</div>
                     <div className='grid grid-flow-col grid-cols-3 place-items-center grid-rows-1 text-lg text-white'>
-                        <div className='flex felx-row place-items-end' ><img rel='png' src={heart} className='w-7 mx-2' id={post.id+'1'} onClick={()=>likeit(post.id)}/>{post.likes}</div>
-                        <div>{post.likes}</div>
+                        <div className='flex flex-row  place-items-center my-1' ><img rel='png' src={heart} className='w-7 mx-2' id={post.id+'1'} onClick={()=>likeit(post.id)}/><div className='text-sm md:text-base lg:text-lg'>{post.likes}</div></div>
+                        <div className='flex flex-row  place-items-center my-1'><img rel='png' src={comment} className='w-5 mx-2'></img><div>{post.commentsN}</div></div>
                         <div>{post.likes}</div>
                         
                     </div>
